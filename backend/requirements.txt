@@ -4,6 +4,7 @@ sqlalchemy==2.0.25
 bcrypt==4.1.2
 pyjwt==2.8.0
 python-multipart==0.0.9
+python-dotenv==1.0.0
 google-auth==2.27.0
 google-auth-oauthlib==1.2.0
 google-auth-httplib2==0.2.0

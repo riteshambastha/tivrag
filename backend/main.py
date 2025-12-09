@@ -8,6 +8,11 @@ import bcrypt
 import jwt
 from datetime import datetime, timedelta
 import json
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 from database import get_db, init_db, User, GoogleCredentials, Project, ChatMessage, Thread, Contact, Deal, Task, Note, EmailLog
 from google_services import GoogleServicesManager
